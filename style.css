@@ -33,6 +33,14 @@ p {
 small {
     font-weight: bold;
 }
+button {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+button:hover{
+    box-shadow: 1px 2px 4px dimgray;
+    transform: scale(1.05);
+}
 
 #hero {
     min-height: 100vh;
